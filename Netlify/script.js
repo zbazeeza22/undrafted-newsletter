@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
         form.reset();
         
         try {
-            const response = await fetch('http://localhost:3000/api/subscribe', {
+            const response = await fetch('YOUR_ACTUAL_RAILWAY_URL/api/subscribe', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
