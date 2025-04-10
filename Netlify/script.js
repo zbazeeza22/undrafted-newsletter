@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
         form.reset();
         
         try {
-            const response = await fetch('YOUR_ACTUAL_RAILWAY_URL/api/subscribe', {
+            const response = await fetch('https://undrafted-newsletter-production.up.railway.app/api/subscribe', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
