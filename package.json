@@ -1,0 +1,18 @@
+{
+  "name": "undrafted-newsletter",
+  "version": "1.0.0",
+  "engines": {
+    "node": "18.x"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "npm install"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "pg": "^8.14.1"
+  }
+} 
